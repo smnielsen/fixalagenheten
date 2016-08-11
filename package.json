@@ -1,0 +1,31 @@
+{
+  "name": "fixalagenheten",
+  "version": "1.0.0",
+  "description": "Pulls a list of apartment providers and notifies when a new apartment is discovered. — Edit",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smnielsen/fixalagenheten.git"
+  },
+  "keywords": [
+    "Lagenhet",
+    "Boende",
+    "NodeJs"
+  ],
+  "author": "Simon Nielsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smnielsen/fixalagenheten/issues"
+  },
+  "homepage": "https://github.com/smnielsen/fixalagenheten#readme",
+  "dependencies": {
+    "axios": "^0.13.1",
+    "node-notifier": "^4.6.0",
+    "open": "0.0.5"
+  }
+}
